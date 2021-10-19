@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,600&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
+:root{
+  --persian-blue: #3f37c9ff;
+  --ultramarine-blue: #4361eeff;
+
+  --accent-blue: var(--persian-blue);
+  --primary-blue: var(--ultramarine-blue);
+}
+
 * {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
